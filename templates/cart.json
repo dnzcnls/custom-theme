@@ -1,14 +1,6 @@
 {
   "sections": {
-    "header": {
-      "type": "header"
-    },
-    "main": {
-      "type": "main-cart"
-    },
-    "footer": {
-      "type": "footer"
-    }
+    "main": { "type": "main-cart" }
   },
-  "order": ["header", "main", "footer"]
+  "order": ["main"]
 }
