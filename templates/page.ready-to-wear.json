@@ -1,0 +1,25 @@
+{
+  "sections": {
+    "head": {
+      "type": "page-hero",
+      "settings": { "eyebrow": "Collection MMXXV", "title": "Ready-to-Wear" },
+      "blocks": {
+        "t1": { "type": "tab", "settings": { "label": "All",           "link": "/pages/boutique" } },
+        "t2": { "type": "tab", "settings": { "label": "Ready-to-Wear", "link": "/pages/ready-to-wear" } },
+        "t3": { "type": "tab", "settings": { "label": "Jewelry",       "link": "/pages/joaillerie" } }
+      },
+      "block_order": ["t1", "t2", "t3"]
+    },
+    "grid": {
+      "type": "product-showcase",
+      "settings": { "eyebrow": "", "title": "", "columns": "3" },
+      "blocks": {
+        "p1": { "type": "product", "settings": { "fallback_asset": "product-coat.jpg",    "category": "Outerwear", "name": "Maison Belted Trench",  "price": "$2,480" } },
+        "p2": { "type": "product", "settings": { "fallback_asset": "product-dress.jpg",   "category": "Dresses",   "name": "Noir Bias Slip Dress",  "price": "$1,890" } },
+        "p3": { "type": "product", "settings": { "fallback_asset": "product-sweater.jpg", "category": "Knitwear",  "name": "Atelier Cashmere Knit", "price": "$980" } }
+      },
+      "block_order": ["p1", "p2", "p3"]
+    }
+  },
+  "order": ["head", "grid"]
+}

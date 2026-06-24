@@ -1,0 +1,16 @@
+{
+  "sections": {
+    "head": { "type": "page-hero", "settings": { "eyebrow": "La Maison", "title": "Une maison, une voix.", "subtitle": "Maison Noir was founded on a single conviction: that elegance is an act of restraint. Each garment and every jewel is conceived in our Parisian atelier and crafted in Europe by hands that have spent lifetimes refining their métier." } },
+    "manifesto": { "type": "manifesto", "settings": { "eyebrow": "Le Manifeste", "quote": "True elegance is the refusal of the unnecessary — the silhouette stripped to its essential grace.", "attribution": "Camille Delaunay, Directrice Artistique" } },
+    "services": {
+      "type": "services",
+      "blocks": {
+        "s1": { "type": "service", "settings": { "title": "Atelier",  "text": "Founded in Paris, with workshops in Milano and Tokyo." } },
+        "s2": { "type": "service", "settings": { "title": "Métier",   "text": "Garments cut and finished by hand to heirloom standards." } },
+        "s3": { "type": "service", "settings": { "title": "Clientèle","text": "An intimate worldwide circle, served with private appointments." } }
+      },
+      "block_order": ["s1", "s2", "s3"]
+    }
+  },
+  "order": ["head", "manifesto", "services"]
+}

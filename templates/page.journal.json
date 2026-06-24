@@ -1,0 +1,14 @@
+{
+  "sections": {
+    "head": { "type": "page-hero", "settings": { "eyebrow": "Le Journal", "title": "Editorial Notes", "subtitle": "Stories from the atelier, conversations with our muses, and dispatches from Paris, Milano, and beyond." } },
+    "editorial": {
+      "type": "editorial-split",
+      "blocks": {
+        "c1": { "type": "card", "settings": { "fallback_asset": "editorial-1.jpg", "chapter": "Issue I",  "title": "Inside the Atelier", "link_text": "Read", "link": "#" } },
+        "c2": { "type": "card", "settings": { "fallback_asset": "editorial-2.jpg", "chapter": "Issue II", "title": "On Quiet Luxury",    "link_text": "Read", "link": "#" } }
+      },
+      "block_order": ["c1", "c2"]
+    }
+  },
+  "order": ["head", "editorial"]
+}
