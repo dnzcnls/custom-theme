@@ -1,5 +1,8 @@
 {
   "sections": {
+    "header": {
+      "type": "header"
+    },
     "hero": {
       "type": "hero",
       "settings": {
@@ -61,7 +64,10 @@
         "s3": { "type": "service", "settings": { "title": "Bespoke Atelier", "text": "Custom alterations and made-to-measure services for the Maison clientele." } }
       },
       "block_order": ["s1", "s2", "s3"]
+    },
+    "footer": {
+      "type": "footer"
     }
   },
-  "order": ["hero", "manifesto", "editorial", "featured", "jewelry-banner", "services"]
+  "order": ["header", "hero", "manifesto", "editorial", "featured", "jewelry-banner", "services", "footer"]
 }
